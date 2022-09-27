@@ -2,7 +2,7 @@
 import * as React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useSession, signOut } from "next-auth/react";
+// import { useSession, signOut } from "next-auth/react";
 import {
   Drawer,
   Typography,
@@ -25,10 +25,7 @@ import {
   useScrollTrigger,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import PersonAddIcon from "@mui/icons-material/PersonAdd";
-import LoginIcon from "@mui/icons-material/Login";
 import {
-  Article,
   Collections,
   ConnectWithoutContact,
   Diversity1,
@@ -100,13 +97,13 @@ const settings = [
     link: "/account",
     onc: () => {},
   },
-  {
-    name: "Logout",
-    link: "",
-    onc: () => {
-      signOut({ callbackUrl: "/" });
-    },
-  },
+  // {
+  //   name: "Logout",
+  //   link: "",
+  //   onc: () => {
+  //     signOut({ callbackUrl: "/" });
+  //   },
+  // },
 ];
 function ElevationScroll(props) {
   const { children, window } = props;
@@ -128,8 +125,8 @@ function ElevationScroll(props) {
 }
 const Appbar = (props) => {
   const router = useRouter();
-  const { data: session, status } = useSession();
-  console.log(session);
+  // const { data: session, status } = useSession();
+  // console.log(session);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const [drawerOpen, setDrawerOpen] = React.useState(false);
   const handleOpenDrawerMenu = () => {
@@ -285,7 +282,7 @@ const Appbar = (props) => {
                 )}
               </Box>
 
-              {session && status === "authenticated" && (
+              {/* {session && status === "authenticated" && (
                 <Box sx={{ flexGrow: 0 }}>
                   <Tooltip title="Open settings">
                     <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
@@ -330,7 +327,7 @@ const Appbar = (props) => {
                     ))}
                   </Menu>
                 </Box>
-              )}
+              )} */}
               {/* {!session && status === "unauthenticated" && (
                 <Box sx={{ flexGrow: 0 }}>
                   <Link href={"/signup"}>

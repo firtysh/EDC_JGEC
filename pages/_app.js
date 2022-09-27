@@ -1,5 +1,4 @@
 import "../styles/globals.css";
-import { SessionProvider } from "next-auth/react";
 import Appbar from "../components/Nav";
 import AOS from "aos";
 import Loader from "../components/Loader";
@@ -23,7 +22,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   return loading ? (
     <Loader />
   ) : (
-    <SessionProvider session={session} refetchInterval={5 * 60}>
+    <>
       <Appbar />
       <Box sx={{ mt: { xs: "86px", md: "76px" } }} />
       <AnimatePresence
@@ -34,7 +33,8 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
         <Component {...pageProps} />
       </AnimatePresence>
       <Footer />
-    </SessionProvider>
+    </>
+    
   );
 }
 
