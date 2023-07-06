@@ -73,7 +73,7 @@ export default function Footer() {
       >
         <Typography sx={{ color: "#fff" }}>
           Entrepreneurship Development Cell, Jalpaiguri Government Engineering
-          College &nbsp;&#169;&nbsp;2022
+          College &nbsp;&#169;&nbsp;2023
         </Typography>
       </Box>
     </Box>
