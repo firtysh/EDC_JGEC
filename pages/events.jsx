@@ -62,20 +62,22 @@ export default function Events() {
                   TEDx JGEC
                 </Typography>
                 <Typography variant="p" component={"p"} fontWeight="bold">
-                  TEDx is an international community that celebrates locally
-                  driven ideas and elevates them to a global stage. The
-                  &lsquo;x&rsquo; in TEDx stands for independently organized TED
-                  events, which is a nonprofit organization devoted to spreading
-                  ideas usually in the form of short, powerful talks. On 11th
-                  February 2019, EDC JGEC organized the first ever TEDx event,
-                  for any state run engineering college in West Bengal. We
-                  ignited a spark in our community by organizing a day filled
-                  with brilliant speakers, thought-provoking ideas and mind
-                  blowing conversations. Not only did our audience seek new
-                  ideas, but our organizing team also benefitted greatly, as the
-                  planning and execution of such an event requires leadership,
-                  teamwork and coordination skills, that parallel those required
-                  in the business world.
+                  In the spirit of ideas worth spreading, TED has created a program 
+                  called TEDx. TEDx is a program of local, self-organized events that
+                  bring people together to share a TED-like experience. Our event is 
+                  called TEDxJGEC, where x = independently organized TED event. On 
+                  11th February 2019, EDC JGEC organised it's first TEDx in the college 
+                  campus.The last TEDx event was organised on 11th December 2022. It was
+                  organised by Shaikh Hamza of 2023 batch from Mechanical Engineering
+                  Department. The event was conducted very easily which has been 
+                  possible because of the amazing management. Some of the speakers
+                  who shared their experiences in our TEDx event are - Ashish Vidyarthi,
+                  Sagar Dodeja, Himeesh Madaan, Raj Vikramaditya (Striver) and many more.
+                  After attending the TEDx event the attendees got an incredibly inspiring 
+                  and engaging experience. Our EDC cell will definitely organise more such 
+                  TEDx events and we would invite more speakers to share their valuable 
+                  experiences with the attendees and we would try to expand the event so 
+                  that more and more number of people can attend the event.
                 </Typography>
               </CardText>
               <CardImg>
@@ -88,35 +90,63 @@ export default function Events() {
                   The Bizz Quiz
                 </Typography>
                 <Typography variant="p" component={"p"} fontWeight="bold">
-                  The Biz Quiz, is an event to test the business knowledge of
-                  participants. Stretching across different business-related
-                  topics, the quiz will be a test of not just knowledge but also
-                  the lateral thinking skills of the participants. The students
-                  have shown their outstanding enthusiasm in this event and made
-                  it a grand success
+                The Entrepreneurship and Development Cell (EDC) of Jalpaiguri 
+                Government Engineering College has organized a business quiz 
+                named Bizz quiz on 12 July, 2023. In this event the participated
+                teams had to answer some brain storming questions related to business
+                and some business history in first stage of preliminary round. In 
+                the second stage of preliminary round the teams had to make a logo for 
+                their business and make a B-plan for the same. Selected teams qualified 
+                to the final round. It had been an amazing event by EDC and we will plan 
+                more such events in future.
                 </Typography>
               </CardText>
               <CardImg>
-                <img src="/assets/placeholders/bquiz.jpg" alt="TEDx" />
+                <img src="/assets/placeholders/bizz_quiz.jpeg" alt="TEDx" />
               </CardImg>
             </Card>
             <Card>
               <CardText>
                 <Typography variant="h4" component={"h4"} fontWeight="bold">
-                  The B-Plan
+                  The B-Plan Workshop
                 </Typography>
                 <Typography variant="p" component={"p"} fontWeight="bold">
-                  A business plan is a document that defines in detail a
-                  company&apos;s objectives and how it plans to achieve its
-                  goals. A business plan lays out a written road map for the
-                  firm from marketing, financial, and operational standpoints.
-                  Both startups and established companies use business plans.
-                  EDC was fortunate enough to collaborate with young indians in
-                  our technical fest &lsquo;Sristi&rsquo; giving the students an
-                  oppurtunity of presenting their B-plans and getting valuable
-                  inputs from the investors. The students showed their gracious
-                  performance with soaring entrepreneurial thinkings and
-                  impressing the investors with their capabilities
+                The Entrepreneurship and Development cell (EDC) of Jalpaiguri 
+                Government Engineering College conducted a workshop on business 
+                plan on 22 August 2023 in our college. It was organized by 4th 
+                year students. The workshop served as a beacon of opportunity for 
+                aspiring entrepreneurs, equipping them with the essential skills 
+                and perspectives required to craft well-rounded business plans. 
+                Through a comprehensive curriculum that encompassed market analysis, 
+                financial projections, strategic marketing and more, attendees were 
+                immersed in the intricacies of transforming innovative ideas into 
+                viable ventures. It had been an amazing workshop by our EDC cell 
+                and we will plan more such workshop in future.
+                </Typography>
+              </CardText>
+              <CardImg>
+                <img src="/assets/placeholders/bplan.jpg" alt="TEDx" />
+              </CardImg>
+            </Card>
+            <Card>
+              <CardText>
+                <Typography variant="h4" component={"h4"} fontWeight="bold">
+                The Stock Trading Workshop
+                </Typography>
+                <Typography variant="p" component={"p"} fontWeight="bold">
+                The Entrepreneurship and Development Cell (EDC) of Jalpaiguri 
+                Government Engineering College has conducted a workshop related 
+                to basics of stock market on 8th May, 2023 in our college. In this 
+                workshop they introduced the attendees with the basic terms of the 
+                stock market like what is dividend, holding, intraday, debt to 
+                equity ratio and many more. Pritam Sardar of 4th year Mechanical 
+                Engineering Department introduced the topics to the attendees. The 
+                event was conducted very smoothly which has been possible because 
+                of the amazing management. After the session the attendees were able 
+                to analyse a stock upto some extent with the basic understanding of 
+                the terms. Our EDC cell is planning to launch more such events in 
+                future for creating a awareness of stock market so that more and more 
+                people invest in our market which will result in upliftment of our economy.
                 </Typography>
               </CardText>
               <CardImg>
