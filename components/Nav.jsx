@@ -255,7 +255,7 @@ const Appbar = (props) => {
                   page.name === "Sign Up" || page.name === "Log In" ? (
                     <></>
                   ) : (
-                    <Link href={page.link}>
+                    <Link href={page.link} key={page.name}>
                       <Button
                         key={page.name}
                         sx={{

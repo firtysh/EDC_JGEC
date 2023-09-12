@@ -81,7 +81,7 @@ export default function Events() {
                 </Typography>
               </CardText>
               <CardImg>
-                <img src="/assets/placeholders/tedx_ayan.jpg" alt="TEDx" />
+                <img src="/assets/placeholders/tedx3.jpg" alt="TEDx" />
               </CardImg>
             </Card>
             <Card>
@@ -150,7 +150,7 @@ export default function Events() {
                 </Typography>
               </CardText>
               <CardImg>
-                <img src="/assets/placeholders/bplan.jpg" alt="TEDx" />
+                <img src="/assets/placeholders/stock.jpeg" alt="TEDx" />
               </CardImg>
             </Card>
           </Box>
@@ -161,8 +161,8 @@ export default function Events() {
 }
 
 const Card = styled.div`
-  width: 60%;
-  minwidth: 300px;
+  width: 85%;
+  ${'' /* minwidth: 500px; */}
   display: flex;
   background-color: #fff;
   flex-direction: row;
@@ -203,7 +203,7 @@ const CardText = styled.div`
   display: flex;
   flex-direction: column;
   padding: 0 20px;
-  margin: auto 0;
+  margin: 10px 0;
 `;
 const CardImg = styled.div`
   flex: 0.4;
@@ -212,8 +212,7 @@ const CardImg = styled.div`
     height: 100%;
     width: 100%;
     padding: 20px;
-    object-fit: cover;
-    aspect-ratio: 1/1;
+    ${'' /* aspect-ratio: 1/1; */}
     transition: all 0.5s ease-in-out;
     :hover {
       transform: scale(1.1);
