@@ -234,7 +234,7 @@ export default function Home() {
             <EventCard>
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <EventImage src="/assets/placeholders/bquiz.jpg" alt="tedx" />
+                  <EventImage src="/assets/placeholders/bizz_quiz.jpeg" alt="bizz_quiz" />
                 </div>
                 <div className="flip-card-back">
                   <Typography
@@ -245,7 +245,7 @@ export default function Home() {
                       padding: "20px",
                     }}
                   >
-                    The Biz Quiz, is an event to test the business knowledge of
+                    The Bizz Quiz, is an event to test the business knowledge of
                     participants.
                   </Typography>
                 </div>
@@ -254,7 +254,7 @@ export default function Home() {
             <EventCard>
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <EventImage src="/assets/placeholders/sharktank.jpg" alt="tedx" />
+                  <EventImage src="/assets/placeholders/sharktank.jpg" alt="shark_tank_jolu" />
                 </div>
                 <div className="flip-card-back">
                   <Typography

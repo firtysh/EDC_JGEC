@@ -21,7 +21,7 @@
     "framer-motion": "^7.3.2",
     "fs": "0.0.1-security",
     "mongoose": "^6.5.3",
-    "next": "^12.2.5",
+    "next": "^13.4.19",
     "next-auth": "^4.10.3",
     "path": "^0.12.7",
     "pro-gallery": "^4.1.46",
@@ -38,6 +38,6 @@
   },
   "devDependencies": {
     "eslint": "8.22.0",
-    "eslint-config-next": "12.2.5"
+    "eslint-config-next": "^13.4.19"
   }
 }

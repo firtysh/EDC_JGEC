@@ -91,9 +91,13 @@ export default function About() {
                 Our Mission
               </Typography>
               <Typography variant="body1" component={"p"}>
-                To help current and aspiring entrepreneurs improve their
-                potential and advance society by sharing knowledge and
-                developing an entrepreneurial and innovative mindset.
+                In view of the vision,
+                the mission statement is, &ldquo;To foster entrepreneurial
+                thinking, promote, facilitate the business knowledge and develop
+                the aspiring successful entrepreneurs imbibed with leadership
+                qualities using innovative and ethical business practices to
+                make global impact&rdquo;. We also aim at developing
+                interpersonality skills of our beloved student community.
               </Typography>
             </GlassCard>
             <GlassCard>
@@ -104,13 +108,7 @@ export default function About() {
               <Typography variant="body1" component={"p"}>
                 The vision of EDC JGEC is, &ldquo;To be a well recognized centre
                 of excellence for entrepreneurship development based on quality
-                learning and skill development.&rdquo; In view of the vision,
-                the mission statement is, &ldquo;To foster entrepreneurial
-                thinking, promote, facilitate the business knowledge and develop
-                the aspiring successful entrepreneurs imbibed with leadership
-                qualities using innovative and ethical business practices to
-                make global impact&rdquo;. We also aim at developing
-                interpersonality skills of our beloved student community.
+                learning and skill development.&rdquo; 
               </Typography>
             </GlassCard>
           </Row>
