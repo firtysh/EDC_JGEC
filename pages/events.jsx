@@ -125,7 +125,7 @@ export default function Events() {
                 </Typography>
               </CardText>
               <CardImg>
-                <img src="/assets/placeholders/bplan.jpg" alt="TEDx" />
+                <img src="/assets/placeholders/bplan2023.jpeg" alt="TEDx" />
               </CardImg>
             </Card>
             <Card>
