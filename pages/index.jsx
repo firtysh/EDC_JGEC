@@ -212,7 +212,7 @@ export default function Home() {
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <EventImage
-                    src="/assets/placeholders/tedx_ayan.jpg"
+                    src="/assets/placeholders/tedx3.jpg"
                     alt="tedx"
                   />
                 </div>
@@ -225,8 +225,8 @@ export default function Home() {
                       padding: "20px",
                     }}
                   >
-                    On 11th February 2019, Entrepreneurship Development Cell,
-                    JGEC organized its first ever TEDx in the college campus.
+                    On 11th December 2022, Entrepreneurship Development Cell,
+                    JGEC organized its second TEDx in the college campus.
                   </Typography>
                 </div>
               </div>
@@ -254,7 +254,7 @@ export default function Home() {
             <EventCard>
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <EventImage src="/assets/placeholders/sharktank.jpg" alt="shark_tank_jolu" />
+                  <EventImage src="/assets/placeholders/bplan2023.jpeg" alt="bplan2023" />
                 </div>
                 <div className="flip-card-back">
                   <Typography
@@ -265,9 +265,9 @@ export default function Home() {
                       padding: "20px",
                     }}
                   >
-                    The Business Plan Competition is an event to test the
-                    entrepreneurial skills of participants, where they can build
-                    and voice for their products in a real-life scenario.
+                    The Entrepreneurship and Development cell (EDC) of Jalpaiguri 
+                    Government Engineering College conducted a workshop on business 
+                    plan on 22 August 2023 in our college.
                   </Typography>
                 </div>
               </div>
