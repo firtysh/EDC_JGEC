@@ -1,4 +1,4 @@
-import { Box, IconButton, Paper, Typography } from "@mui/material";
+import { Box, Button, IconButton, Paper, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
 import "animate.css";
 import { colors } from "../styles/colors";
@@ -52,6 +52,24 @@ export default function Home() {
             >
               Jalpaiguri Government Engineering College
             </Typography>
+          </div>
+          <div className="animate__animated animate__fadeIn" style={{display:'flex',flexDirection:'column',alignItems:"center",marginTop:"4rem",marginBottom:'4rem',gap:"1rem"}}>
+            <Typography
+              sx={{
+                fontSize: "3vw",
+                color: "rgb(255 216 102 / 87%)",
+              }}
+              variant={"h2"}
+              className="cloister"
+            >
+              Join us on an exciting journey !
+            </Typography>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSd36tJF27xPuOlexMaH9ScJKebPhhyGGJ7e9M_MSS8U2dpOfw/viewform?usp=sf_link"
+              style={{ color: "#9f0037",background:'#fff',borderRadius:'8px',textDecoration:'none',padding:'5px',textAlign:'center',width:'100px' }}
+            >
+              Join Now
+            </a>
           </div>
         </Box>
         <Box
